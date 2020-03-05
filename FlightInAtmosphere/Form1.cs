@@ -54,8 +54,8 @@ namespace FlightInAtmosphere
 
 				chart1.Series[0].Points.AddXY(simulation.Body.X, simulation.Body.Y);
 
-				chart1.ChartAreas[0].AxisY.Maximum = simulation.MaxY > 1 ? (double)simulation.MaxY : 1;
-				chart1.ChartAreas[0].AxisX.Maximum = simulation.MaxX > 1 ? (double)simulation.MaxX : 1;
+				//chart1.ChartAreas[0].AxisY.Maximum = simulation.MaxY > 1 ? (double)simulation.MaxY : 1;
+				//chart1.ChartAreas[0].AxisX.Maximum = simulation.MaxX > 1 ? (double)simulation.MaxX : 1;
 
 				flag = true;
 

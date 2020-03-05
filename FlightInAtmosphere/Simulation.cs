@@ -11,8 +11,8 @@ namespace FlightInAtmosphere
 		private const decimal dt = 0.01M, g = 9.81M;
 		public decimal Time { get; private set; }
 		public bool IsFinished { get; private set; }
-		public decimal MaxY { get; private set; }
-		public decimal MaxX { get; private set; }
+		//public decimal MaxY { get; private set; }
+		//public decimal MaxX { get; private set; }
 		public Body Body { get; private set; }
 		public void NewSystem(decimal x, decimal y, decimal velocity, double angle, decimal mass, decimal size)
 		{
@@ -25,9 +25,9 @@ namespace FlightInAtmosphere
 				mass,
 				size);
 
-			decimal fT = (Body.VelocityY + (decimal)Math.Sqrt((double)(Body.VelocityY * Body.VelocityY + 2 * g * y))) / g;
-			MaxY = y + Body.VelocityY * Body.VelocityY / (2 * g);
-			MaxX = (Body.VelocityX * fT);
+			//decimal fT = (Body.VelocityY + (decimal)Math.Sqrt((double)(Body.VelocityY * Body.VelocityY + 2 * g * y))) / g;
+			//MaxY = y + Body.VelocityY * Body.VelocityY / (2 * g);
+			//MaxX = (Body.VelocityX * fT);
 			
 		}
 

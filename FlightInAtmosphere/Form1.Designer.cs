@@ -90,10 +90,10 @@
 			this.weightNumericUpDown.Size = new System.Drawing.Size(120, 26);
 			this.weightNumericUpDown.TabIndex = 14;
 			this.weightNumericUpDown.Value = new decimal(new int[] {
-            100,
+            1,
             0,
             0,
-            131072});
+            0});
 			// 
 			// label5
 			// 
@@ -278,7 +278,7 @@
 			this.Controls.Add(this.chart1);
 			this.Controls.Add(this.panel1);
 			this.Name = "Form1";
-			this.Text = "Flight Without Atmosphere";
+			this.Text = "Flight In Atmosphere";
 			this.panel1.ResumeLayout(false);
 			this.panel1.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.weightNumericUpDown)).EndInit();
